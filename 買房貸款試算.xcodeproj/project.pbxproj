@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1923CD861F40B9A400295C12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1923CD851F40B9A400295C12 /* AppDelegate.swift */; };
+		1923CD881F40B9A400295C12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1923CD871F40B9A400295C12 /* ViewController.swift */; };
+		1923CD8B1F40B9A400295C12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1923CD891F40B9A400295C12 /* Main.storyboard */; };
+		1923CD8D1F40B9A400295C12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1923CD8C1F40B9A400295C12 /* Assets.xcassets */; };
+		1923CD901F40B9A400295C12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1923CD8E1F40B9A400295C12 /* LaunchScreen.storyboard */; };
+		1923CD9B1F40B9A400295C12 /* ______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1923CD9A1F40B9A400295C12 /* ______Tests.swift */; };
+		1923CDA61F40B9A400295C12 /* ______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1923CDA51F40B9A400295C12 /* ______UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1923CD971F40B9A400295C12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1923CD7A1F40B9A400295C12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1923CD811F40B9A400295C12;
+			remoteInfo = "買房貸款試算";
+		};
+		1923CDA21F40B9A400295C12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1923CD7A1F40B9A400295C12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1923CD811F40B9A400295C12;
+			remoteInfo = "買房貸款試算";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1923CD821F40B9A400295C12 /* 買房貸款試算.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "買房貸款試算.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1923CD851F40B9A400295C12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1923CD871F40B9A400295C12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1923CD8A1F40B9A400295C12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1923CD8C1F40B9A400295C12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1923CD8F1F40B9A400295C12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1923CD911F40B9A400295C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1923CD961F40B9A400295C12 /* 買房貸款試算Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "買房貸款試算Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1923CD9A1F40B9A400295C12 /* ______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______Tests.swift"; sourceTree = "<group>"; };
+		1923CD9C1F40B9A400295C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1923CDA11F40B9A400295C12 /* 買房貸款試算UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "買房貸款試算UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1923CDA51F40B9A400295C12 /* ______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______UITests.swift"; sourceTree = "<group>"; };
+		1923CDA71F40B9A400295C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1923CD7F1F40B9A400295C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1923CD931F40B9A400295C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1923CD9E1F40B9A400295C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1923CD791F40B9A400295C12 = {
+			isa = PBXGroup;
+			children = (
+				1923CD841F40B9A400295C12 /* 買房貸款試算 */,
+				1923CD991F40B9A400295C12 /* 買房貸款試算Tests */,
+				1923CDA41F40B9A400295C12 /* 買房貸款試算UITests */,
+				1923CD831F40B9A400295C12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1923CD831F40B9A400295C12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1923CD821F40B9A400295C12 /* 買房貸款試算.app */,
+				1923CD961F40B9A400295C12 /* 買房貸款試算Tests.xctest */,
+				1923CDA11F40B9A400295C12 /* 買房貸款試算UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1923CD841F40B9A400295C12 /* 買房貸款試算 */ = {
+			isa = PBXGroup;
+			children = (
+				1923CD851F40B9A400295C12 /* AppDelegate.swift */,
+				1923CD871F40B9A400295C12 /* ViewController.swift */,
+				1923CD891F40B9A400295C12 /* Main.storyboard */,
+				1923CD8C1F40B9A400295C12 /* Assets.xcassets */,
+				1923CD8E1F40B9A400295C12 /* LaunchScreen.storyboard */,
+				1923CD911F40B9A400295C12 /* Info.plist */,
+			);
+			path = "買房貸款試算";
+			sourceTree = "<group>";
+		};
+		1923CD991F40B9A400295C12 /* 買房貸款試算Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1923CD9A1F40B9A400295C12 /* ______Tests.swift */,
+				1923CD9C1F40B9A400295C12 /* Info.plist */,
+			);
+			path = "買房貸款試算Tests";
+			sourceTree = "<group>";
+		};
+		1923CDA41F40B9A400295C12 /* 買房貸款試算UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1923CDA51F40B9A400295C12 /* ______UITests.swift */,
+				1923CDA71F40B9A400295C12 /* Info.plist */,
+			);
+			path = "買房貸款試算UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1923CD811F40B9A400295C12 /* 買房貸款試算 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1923CDAA1F40B9A400295C12 /* Build configuration list for PBXNativeTarget "買房貸款試算" */;
+			buildPhases = (
+				1923CD7E1F40B9A400295C12 /* Sources */,
+				1923CD7F1F40B9A400295C12 /* Frameworks */,
+				1923CD801F40B9A400295C12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "買房貸款試算";
+			productName = "買房貸款試算";
+			productReference = 1923CD821F40B9A400295C12 /* 買房貸款試算.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1923CD951F40B9A400295C12 /* 買房貸款試算Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1923CDAD1F40B9A400295C12 /* Build configuration list for PBXNativeTarget "買房貸款試算Tests" */;
+			buildPhases = (
+				1923CD921F40B9A400295C12 /* Sources */,
+				1923CD931F40B9A400295C12 /* Frameworks */,
+				1923CD941F40B9A400295C12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1923CD981F40B9A400295C12 /* PBXTargetDependency */,
+			);
+			name = "買房貸款試算Tests";
+			productName = "買房貸款試算Tests";
+			productReference = 1923CD961F40B9A400295C12 /* 買房貸款試算Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1923CDA01F40B9A400295C12 /* 買房貸款試算UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1923CDB01F40B9A400295C12 /* Build configuration list for PBXNativeTarget "買房貸款試算UITests" */;
+			buildPhases = (
+				1923CD9D1F40B9A400295C12 /* Sources */,
+				1923CD9E1F40B9A400295C12 /* Frameworks */,
+				1923CD9F1F40B9A400295C12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1923CDA31F40B9A400295C12 /* PBXTargetDependency */,
+			);
+			name = "買房貸款試算UITests";
+			productName = "買房貸款試算UITests";
+			productReference = 1923CDA11F40B9A400295C12 /* 買房貸款試算UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1923CD7A1F40B9A400295C12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Huang Hao";
+				TargetAttributes = {
+					1923CD811F40B9A400295C12 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					1923CD951F40B9A400295C12 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 1923CD811F40B9A400295C12;
+					};
+					1923CDA01F40B9A400295C12 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 1923CD811F40B9A400295C12;
+					};
+				};
+			};
+			buildConfigurationList = 1923CD7D1F40B9A400295C12 /* Build configuration list for PBXProject "買房貸款試算" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1923CD791F40B9A400295C12;
+			productRefGroup = 1923CD831F40B9A400295C12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1923CD811F40B9A400295C12 /* 買房貸款試算 */,
+				1923CD951F40B9A400295C12 /* 買房貸款試算Tests */,
+				1923CDA01F40B9A400295C12 /* 買房貸款試算UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1923CD801F40B9A400295C12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1923CD901F40B9A400295C12 /* LaunchScreen.storyboard in Resources */,
+				1923CD8D1F40B9A400295C12 /* Assets.xcassets in Resources */,
+				1923CD8B1F40B9A400295C12 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1923CD941F40B9A400295C12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1923CD9F1F40B9A400295C12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1923CD7E1F40B9A400295C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1923CD881F40B9A400295C12 /* ViewController.swift in Sources */,
+				1923CD861F40B9A400295C12 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1923CD921F40B9A400295C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1923CD9B1F40B9A400295C12 /* ______Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1923CD9D1F40B9A400295C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1923CDA61F40B9A400295C12 /* ______UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1923CD981F40B9A400295C12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1923CD811F40B9A400295C12 /* 買房貸款試算 */;
+			targetProxy = 1923CD971F40B9A400295C12 /* PBXContainerItemProxy */;
+		};
+		1923CDA31F40B9A400295C12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1923CD811F40B9A400295C12 /* 買房貸款試算 */;
+			targetProxy = 1923CDA21F40B9A400295C12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1923CD891F40B9A400295C12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1923CD8A1F40B9A400295C12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1923CD8E1F40B9A400295C12 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1923CD8F1F40B9A400295C12 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1923CDA81F40B9A400295C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1923CDA91F40B9A400295C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1923CDAB1F40B9A400295C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2MFNG897SQ;
+				INFOPLIST_FILE = "買房貸款試算/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hao.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1923CDAC1F40B9A400295C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2MFNG897SQ;
+				INFOPLIST_FILE = "買房貸款試算/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hao.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1923CDAE1F40B9A400295C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2MFNG897SQ;
+				INFOPLIST_FILE = "買房貸款試算Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hao.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/買房貸款試算.app/買房貸款試算";
+			};
+			name = Debug;
+		};
+		1923CDAF1F40B9A400295C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2MFNG897SQ;
+				INFOPLIST_FILE = "買房貸款試算Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hao.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/買房貸款試算.app/買房貸款試算";
+			};
+			name = Release;
+		};
+		1923CDB11F40B9A400295C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2MFNG897SQ;
+				INFOPLIST_FILE = "買房貸款試算UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hao.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "買房貸款試算";
+			};
+			name = Debug;
+		};
+		1923CDB21F40B9A400295C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2MFNG897SQ;
+				INFOPLIST_FILE = "買房貸款試算UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hao.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "買房貸款試算";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1923CD7D1F40B9A400295C12 /* Build configuration list for PBXProject "買房貸款試算" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1923CDA81F40B9A400295C12 /* Debug */,
+				1923CDA91F40B9A400295C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1923CDAA1F40B9A400295C12 /* Build configuration list for PBXNativeTarget "買房貸款試算" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1923CDAB1F40B9A400295C12 /* Debug */,
+				1923CDAC1F40B9A400295C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1923CDAD1F40B9A400295C12 /* Build configuration list for PBXNativeTarget "買房貸款試算Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1923CDAE1F40B9A400295C12 /* Debug */,
+				1923CDAF1F40B9A400295C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1923CDB01F40B9A400295C12 /* Build configuration list for PBXNativeTarget "買房貸款試算UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1923CDB11F40B9A400295C12 /* Debug */,
+				1923CDB21F40B9A400295C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1923CD7A1F40B9A400295C12 /* Project object */;
+}
