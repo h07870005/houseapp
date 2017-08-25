@@ -14,6 +14,7 @@
 		1923CD901F40B9A400295C12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1923CD8E1F40B9A400295C12 /* LaunchScreen.storyboard */; };
 		1923CD9B1F40B9A400295C12 /* ______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1923CD9A1F40B9A400295C12 /* ______Tests.swift */; };
 		1923CDA61F40B9A400295C12 /* ______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1923CDA51F40B9A400295C12 /* ______UITests.swift */; };
+		19E775C11F40F2E4008E2467 /* HouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E775C01F40F2E4008E2467 /* HouseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1923CDA11F40B9A400295C12 /* 買房貸款試算UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "買房貸款試算UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1923CDA51F40B9A400295C12 /* ______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______UITests.swift"; sourceTree = "<group>"; };
 		1923CDA71F40B9A400295C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19E775C01F40F2E4008E2467 /* HouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				1923CD851F40B9A400295C12 /* AppDelegate.swift */,
 				1923CD871F40B9A400295C12 /* ViewController.swift */,
 				1923CD891F40B9A400295C12 /* Main.storyboard */,
+				19E775C01F40F2E4008E2467 /* HouseViewController.swift */,
 				1923CD8C1F40B9A400295C12 /* Assets.xcassets */,
 				1923CD8E1F40B9A400295C12 /* LaunchScreen.storyboard */,
 				1923CD911F40B9A400295C12 /* Info.plist */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1923CD881F40B9A400295C12 /* ViewController.swift in Sources */,
+				19E775C11F40F2E4008E2467 /* HouseViewController.swift in Sources */,
 				1923CD861F40B9A400295C12 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
